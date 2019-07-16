@@ -1,0 +1,136 @@
+Third Class
+01 Exercise
+$i = 0;
+while ($i < 5) {
+	echo "Hello Bangladesh<br>";
+	$i++;
+}
+
+$i = 0;
+while ($i < 10) {
+	$j = $i + $i;
+	echo "$i+$i=$j<br>";
+	$i++;
+}
+02 Exercise
+$i = 0;
+do{
+	echo "Hello";
+	
+} while($i != 0); 
+
+$i = 0;
+do{
+	echo "Hello";
+	$i++;
+} while($i == 0); 
+
+03 Exercise
+$i = "babu";
+switch ($i) {
+	case 'babu':
+		echo "mair dibo";
+		break;
+		case 'adult':
+			echo "Lathi dibo";
+			break;
+			case 'bura':
+				echo "pani dibo";
+				break;
+	
+	default:
+		echo "tumi alien";
+		break;
+}
+
+$i = "key2";
+switch ($i) {
+	case 'key1':
+		echo "father";
+		break;
+		case 'key2':
+			echo "mother";
+			break;
+			case 'key3':
+				echo "Brother";
+				break;
+	
+	default:
+		echo "Me";
+		break;
+}
+04 Exercise
+
+for ($i=0; $i <5 ; $i++) { 
+	echo "Go for die<br>";
+}
+
+$k = 1;
+for ($i=0; $i <5 ; $i++) { 
+	for ($j=0; $j <5 ; $j++) { 
+		echo "Khobor ki<br>";
+		$k++;
+	}
+}
+
+
+for ($i=1; $i <4 ; $i++) { 
+	for ($j=1; $j <11 ; $j++) { 
+		echo "$i x $j = ".($i*$j)."<br>";
+		
+	}
+}
+
+
+for ($i=1; $i <4 ; $i++) { 
+	for ($j=10; $j >0 ; $j--) { 
+		echo "$i x $j = ".($i*$j)."<br>";
+		
+	}
+}
+
+
+for ($i=3; $i >0 ; $i--) { 
+	for ($j=1; $j <11 ; $j++) { 
+		echo "$i x $j = ".($i*$j)."<br>";
+		
+	}
+}
+
+05 Exercise
+/*Recursion*/
+function Name($n)
+{
+	
+	if ($n != 0) {
+		echo "Hello<br>";
+		$n--;
+		Name($n);
+	}
+	
+}
+
+Name(5);
+
+
+
+function Name($n)
+{
+	
+	if ($n <= 0) {
+	}else{
+		echo "Hello<br>";
+		$n--;
+		Name($n);
+	}
+	
+	
+}
+
+Name(5);
+
+06 Exercise
+for($i=0;$i<101;$i++){
+$j=$i+$i;
+echo "Ole Ahmed $i+$i=$j<br>";
+}

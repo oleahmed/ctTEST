@@ -1,0 +1,67 @@
+<?php
+
+$n = min(58.3,59,987,97,9754);
+// 	function num($n){
+// 		echo $n;
+// 	}
+// num($n);
+/*find max between 3 numbers using function*/
+// $n = max(58.3,59,987,97,9754);
+// 	function num($n){
+// 		echo $n;
+// 	}
+// num($n);
+
+
+/*find even /odd using function*/
+
+	// function oddeven(){
+	// 	$n = 60;
+	// 	if ($n%2 == 0) {
+	// 		echo "This number is even";
+	// 	}else{
+	// 		echo "This number is odd";
+	// 	}
+	// }
+	// oddeven();
+
+/*find positive , negetive and zero using function*/
+ // function pnz(){
+	//  	$n = 0;
+	//  	if ($n > 0) {
+	//  		echo "This number is positive";
+	//  	}else if($n < 0) {
+	//  		echo "This number is negative";
+	//  	}else{
+	//  		echo "This number is zero";
+	 	 
+	//  	}
+	//  }
+	//  pnz();
+
+
+// $a = "ole";
+// $b = "Shakib";
+// $c = "Rakib";
+// $a1 = strlen($a);
+// $b1 = strlen($b);
+// $c1 = strlen($c);
+// //echo $a1,$b1,$c1;
+//  $n = min($a1,$b1,$c1);
+//  	  function abc($n){
+
+// 	   	if ($n%2 == 0) {
+// 	   		echo "You are general";
+// 	   	}else {
+// 	   		echo "You are different";
+// 	   }
+// 	}
+// 	  abc($n);
+
+	for ($i=1; $i < 200; $i++) { 
+		if ($i%2==0) {
+			echo "$i Even<br>";
+		}else {
+			echo "$i<br>";
+		}
+		?>
